@@ -1,9 +1,11 @@
 {
   "name": "@hexlet/code",
-  "type": "module",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/tkuzmin/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/tkuzmin/frontend-project-lvl1/actions)",
   "main": "index.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/tkuzmin/frontend-project-lvl1.git"
   },
-  "author": "",
+  "author": "tkuzmin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tkuzmin/frontend-project-lvl1/issues"
