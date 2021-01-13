@@ -9,4 +9,4 @@ publish:
 
 lint:
     npm install
-	npx eslint .
+    npx eslint .
