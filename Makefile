@@ -8,5 +8,5 @@ publish:
 	npm publish --dry-run
 
 lint:
-    npm install
-    npx eslint .
+	npm install
+	npx eslint .
